@@ -1,0 +1,81 @@
+table, td {
+  border: 3px solid steelblue;
+  border-radius: 30px;
+  background-color: white;
+  border-style:outset;
+  margin: -20% auto;
+
+
+
+}
+
+td {
+  text-align: center;
+  height:90px;
+  width:90px;
+}
+
+button{
+position: absolute;
+margin-left: 770px;
+margin-top: -40px;
+
+border: 2px solid #22427C;
+border-style: outset;
+background-color: powderblue;
+
+height: 40px;
+width: 100px;
+}
+
+body{
+  background-color:#9dd7d8;
+
+}
+
+h1{
+
+text-align: center;
+width: 100%;
+font-family:'Libre Baskerville', serif;
+font-size: 100px;
+}
+
+.scores{
+
+  border: 3px solid cadetblue;
+  width: 140px;
+  height: 80px;
+margin-left: 930px;
+text-align: center;
+border-style: inset;
+border-radius: 30px;
+font-size: 27px;
+
+}
+
+.scores:first-of-type {
+   margin-top: 170px;
+ }
+
+ #score{
+   background-color: steelblue;
+ }
+
+ #meilleur{
+   margin-top: 12px;
+   background-color: paleturquoise;
+ }
+
+.losange{
+position: absolute;
+height: 700px;
+width: 450px;
+top:0px;
+left:450px;
+background-image: url("./2.jpg");
+background-repeat: no-repeat;
+
+z-index: -1;
+
+}
